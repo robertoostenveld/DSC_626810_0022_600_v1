@@ -1,0 +1,36 @@
+# Citation
+
+Cockx, H.M., Oostenveld, R., Flórez R, Y.A., Bloem, B.R., Cameron, I.G.M. (Ian), Wezel, R.J.A. van (2023): Cortical activity measured with fNIRS related to freezing of gait in Parkinsons disease.. Version 1. Radboud University. (dataset).
+https://doi.org/10.34973/k7ce-6n58.
+
+# Abstract
+
+This dataset includes the raw data of 22 participants with Parkinson's disease and self-reported daily freezing, and 22 control participants performing a gait task including 180 degree turns, passing through a narrow doorway, stopping, and starting. One participant with Parkinson's did not give permission to share research data and is excluded from this dataset.
+
+Participants walked up and down a corridor, halfway passing through a narrow doorway frame (60 cm wide), and at the ends making 180° turns in a square taped on the floor (50 cm wide). At regular intervals, the participants were asked to stop and start walking again (see  task_description.pdf).
+
+fNIRS data was sampled with a multichannel fNIRS device (Artinis Medical Systems, 48 long and 16 short separation channels) bilaterally over the primary motor cortex, the premotor cortex, the supplementary motor cortex, the prefrontal cortex, and the posterior parietal cortex (see optode_layout.pdf).
+The 3D positions of the optodes and anatomical landmarks were extracted from 3D scans of the participants' head (made with a Structure Sensor, Occipital). 
+
+Motion data was collected with a full-body motion capture system (Xsens) consisting of 17 IMUs. The data of this dataset consists of the (.mvnx) exported data from the MVN Awinda software (version 2020.0.1) and includes acceleration, angular velocity and magnetometer data of each sensor ('sensor'), as well as positions, orientations, or other time derivatives of all body parts ('segments'). Additionally, center of mass position ('COM'), joint angles ('joint'), and foot contact data ('footcontact') are shared.
+
+The fNIRS and motion data was minimally processed (fNIRS data resampled from 50 to 60 Hz) and synchronized.
+
+Events were either extracted from the motion data, annotated based on videos, or extracted from the stimulus presentation file generated during the experiment (see events.json).
+
+# Background information
+
+You can find more information pertaining to this dataset on the collection overview page at https://doi.org/10.34973/k7ce-6n58.
+
+A complete list of files that are part of this dataset can be found in the file MANIFEST.txt, including a SHA256 hash for each file to allow verification of correct data transfer.
+
+# Restrictions on data access and reuse
+
+The access to and use of this dataset is only allowed under the conditions listed in the data use agreement, as detailed in the file LICENSE.txt.
+
+Neither the Radboud University, nor the researchers that provide this dataset should be included as an author of publications or presentations if this authorship would be based solely on the use of this data.
+
+However, we ask you to acknowledge the use of the data and data derived from the data when publicly presenting any results or algorithms that benefitted from their use:
+
+    1) Papers, book chapters, books, posters, oral presentations, and all other presentations of results derived from the data should acknowledge the origin of the data as follows: "Data were provided (in part) by the Radboud University, Nijmegen, The Netherlands".
+    2) Authors of publications or presentations using the data should cite relevant publications describing the methods developed and used by the Radboud University to acquire and process the data. The specific publications that are appropriate to cite in any given study will depend on what the data were used for and for what purposes. When applicable, a list of publications will be specified on the collection overview page.
